@@ -81,6 +81,7 @@ Next I have performed the gradient thresholding on the warped images. For the gr
 
 Finally I combined the result that I obtained from the color and the gradient thresholding. Below is the result that I obtained after cobining the color and the gradient thresholds.
 
+
  ![alt text][image3]
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
@@ -102,6 +103,8 @@ I verified that my perspective transform was working as expected by drawing the 
 Below is the result of the warped images:
 
 ![alt text][image12]
+
+I have also used the averaging technique average out the path from the previous 20 frames so the detection of the lane lines does not move out of the actual lane lines
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
